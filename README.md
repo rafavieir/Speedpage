@@ -23,5 +23,6 @@ Execução do Aplicativo: Para executar o aplicativo, você pode chamar os méto
 
 Integração com o Streamlit: Se você deseja integrar o SpeedPage em um aplicativo Streamlit, você pode importar os métodos relevantes do script index.py e usá-los conforme necessário.
 
-Nota sobre o Streamlit Share
-Por favor, note que o SpeedPage depende do Selenium para algumas funcionalidades, como a medição do tempo de carregamento da página e a verificação da otimização de imagens. O Streamlit Share atualmente não suporta a execução de aplicativos que dependem do Selenium, pois não inclui um navegador para executar tarefas de automação. Portanto, se você pretende hospedar o SpeedPage no Streamlit Share, pode ser necessário adaptar o código para remover a dependência do Selenium ou considerar outras opções de hospedagem.
+
+# Nota sobre o Streamlit Share:
+ É importante observar que o SpeedPage usa o Selenium para algumas funcionalidades, como medir o tempo de carregamento da página e verificar a otimização de imagens. No entanto, o Streamlit Share não suporta a execução de aplicativos que dependem do Selenium, já que não inclui um navegador para executar tarefas de automação. Portanto, se você planeja hospedar o SpeedPage no Streamlit Share, será necessário ajustar o código para remover a dependência do Selenium ou considerar outras opções de hospedagem.
